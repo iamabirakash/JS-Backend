@@ -26,6 +26,7 @@ npm i bcrypt
 
 Bcrypt hashes passwords to ensure that even if the database is compromised, the actual passwords remain secure.
 Hashing converts a plain-text password into a fixed-size string of characters, which is computationally infeasible to reverse.
+
 2. Salting:
 
 Bcrypt automatically generates a salt for each password.
