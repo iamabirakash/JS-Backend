@@ -31,3 +31,14 @@ Hashing converts a plain-text password into a fixed-size string of characters, w
 
 Bcrypt automatically generates a salt for each password.
 A salt is a random value added to the password before hashing, ensuring that identical passwords result in different hashes. This prevents attackers from using precomputed hash tables (rainbow tables) to crack passwords.
+
+```
+npm i jsonwebtoken
+```
+1. Authentication:
+
+JWTs are used to securely transmit information between the client and the server. After a user logs in, the server generates a JWT, which is then sent to the client. The client includes this token in the Authorization header of subsequent requests to access protected routes or resources.
+
+2. Authorization:
+
+JWTs can carry information about user permissions and roles, enabling the server to grant or deny access to resources based on the claims contained within the token.
