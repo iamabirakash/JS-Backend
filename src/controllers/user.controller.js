@@ -5,7 +5,7 @@ import {uploadOnCloudinary} from "../utils/cloudinary.js"
 import { ApiResponse } from "../utils/ApiResponse.js";
 
 
-const generateAccessAndRefreshToken = async(userId) => {
+const generateAccessAndRefereshTokens = async(userId) =>{
     try {
         const user = await User.findById(userId)
         const accessToken = user.generateAccessToken()
@@ -16,8 +16,9 @@ const generateAccessAndRefreshToken = async(userId) => {
 
         return {accessToken, refreshToken}
 
+
     } catch (error) {
-        throw new ApiError(500, "Something went wrong while generating refresh and access token")
+        throw new ApiError(500, "Something went wrong while generating referesh and access token")
     }
 }
 
@@ -116,6 +117,9 @@ const loginUser = asyncHandler(async (req, res) =>{
     //password check
     //access and referesh token
     //send cookie
+
+    const {email, username, password} = req.body
+    console.log(email);
 
     if (!username && !email) {
         throw new ApiError(400, "username or email is required")
