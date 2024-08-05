@@ -1,4 +1,8 @@
-## **User is a Mongoose Object, user is defined by us**
+* ### Note
+
+1. Access Tokens are Short Lived, whereas Refresh Tokens are longed lived.
+
+2. User is a Mongoose Object, user is defined by us
 
 # npm packages to be installed 
 ```
