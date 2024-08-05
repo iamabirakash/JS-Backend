@@ -1,3 +1,5 @@
+## **User is a Mongoose Object, user is defined by us**
+
 # npm packages to be installed 
 ```
 npm i mongoose
