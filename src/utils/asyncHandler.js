@@ -7,6 +7,12 @@ const asyncHandler = (requestHandler) => {
 
 export { asyncHandler }
 
+/*
+HIGHER ORDER FUNCTION
+Takes one or more functions as arguments: It can accept other functions as parameters.
+Returns a function as its result: It can return a new function.
+*/
+
 
 // const asyncHandler = () => {}
 // const asyncHandler = (func) => () => {}
