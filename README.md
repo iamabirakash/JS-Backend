@@ -42,3 +42,8 @@ JWTs are used to securely transmit information between the client and the server
 2. Authorization:
 
 JWTs can carry information about user permissions and roles, enabling the server to grant or deny access to resources based on the claims contained within the token.
+
+```
+npm i cloudinary
+```
+Cloudinary is a cloud-based service that provides an end-to-end image and video management solution.
