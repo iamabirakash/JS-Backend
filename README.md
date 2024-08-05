@@ -8,6 +8,8 @@ npm i express
 ```
 npm i cors
 ```
+CORS (Cross-Origin Resource Sharing) is a mechanism by which data or any other resource of a site could be shared intentionally to a third party website when there is a need. Generally, access to resources that are residing in a third party site is restricted by the browser clients for security purposes.
+
 ```
 npm i cookie-parser
 ```
