@@ -47,3 +47,8 @@ JWTs can carry information about user permissions and roles, enabling the server
 npm i cloudinary
 ```
 Cloudinary is a cloud-based service that provides an end-to-end image and video management solution.
+
+```
+npm i multer
+```
+Multer is a middleware for handling multipart/form-data, which is primarily used for uploading files in Node.js and Express applications.
