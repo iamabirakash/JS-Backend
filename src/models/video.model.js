@@ -43,5 +43,6 @@ const videoSchema = new Schema(
 )
 
 videoSchema.plugin(mongooseAggregatePaginate)
+//Pagination refers to the process of dividing a large dataset into smaller, manageable chunks or pages. This technique is commonly used in web applications to display a subset of data at a time, allowing users to navigate through the data in a more user-friendly manner
 
 export const Video = mongoose.model("Video", videoSchema)
